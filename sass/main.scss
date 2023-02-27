@@ -1,0 +1,25 @@
+//Import Functions
+@import "../node_modules/bootstrap/scss/functions";
+
+$primary: rgb(43, 122, 120);
+$secondary: rgb(23, 37, 42);
+$light: rgb(58, 175, 169);
+
+//Variables and Mixins
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200&display=swap');
+
+//font override
+$font-family-base: Nunito, sans-serif;
+$display-font-weight: 400;
+
+
+
+
+
+// Import Bootstrap.scss
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script
+			src="https://kit.fontawesome.com/d9537ccec9.js"
+			crossorigin="anonymous"
+		></script>
+		<title>EventGather</title>
+	</head>
+	<body>
+		<!--navbar-->
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="images/Square.svg" width="30"></a>
+				<image></image>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+				</div>
+			</div>
+		</nav>
+		<br />
+		<!--end nav-->
+		<!--form-->
+		<div class="container">
+			<div class="py-2 text-center">
+				<img src="images/logo.png" width="200">
+			</div>
+		</div>
+
+		<div class="container">
+			<h4 class="mb-4">Billing Address</h4>
+			<form>
+				<div class="row g-4">
+					<div class="col-sm-6">
+						<label for="firstName" class="form-label">First Name</label>
+						<input
+							id="firstName"
+							type="text"
+							class="form-control"
+							placeholder="First Name"
+						/>
+					</div>
+					<div class="col-sm-6">
+						<label for="lastName" class="form-label">Last Name</label>
+						<input
+							id="lastName"
+							type="text"
+							class="form-control"
+							placeholder="Last Name"
+						/>
+					</div>
+				</div>
+				<div class="row g-4 mt-2">
+					<div class="col-md-4">
+						<label for="county" class="form-label">County</label>
+						<select id="county" class="form-control">
+							<option value="">Select...</option>
+							<option value="">Dublin</option>
+						</select>
+					</div>
+					<div class="col-md-4">
+						<label for="cityTown" class="form-label">City/Town</label>
+						<input
+							id="cityTown"
+							type="text"
+							class="form-control"
+							placeholder="e.g Dun Laoghaire"
+						/>
+					</div>
+					<div class="col-md-4">
+						<label for="firstName" class="form-label">Eircode</label>
+						<input
+							id="firstName"
+							type="text"
+							class="form-control"
+							placeholder="e.g K55 EE55"
+						/>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="form-check mt-4">
+						<input type="checkbox" class="form-check-input" />
+						<label for="sameAddress"
+							>My shipping address is the same as the billing address</label
+						>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" />
+						<label for="saveAddress">Save my info for later</label>
+					</div>
+				</div>
+
+				<hr class="my-5" />
+
+				<h4 class="mb-2">Payment</h4>
+
+				<div class="form-check mt-4">
+					<input
+						type="radio"
+						name="payment"
+						id="debitCard"
+						class="form-check-input"
+					/>
+					<label for="debitCard">Credit Card</label>
+				</div>
+
+				<div class="form-check">
+					<input
+						type="radio"
+						name="payment"
+						id="payPal"
+						class="form-check-input"
+					/>
+					<label for="payPal">PayPal</label>
+				</div>
+
+				<div class="row mt-4 gy-4">
+					<div class="col-md-6">
+						Cardholder Name
+						<input type="text" class="form-control" />
+					</div>
+					<div class="col-md-6">
+						Card Number
+						<input type="text" class="form-control" />
+					</div>
+					<div class="col-md-3">
+						Expiration Date
+						<input type="text" class="form-control" />
+					</div>
+					<div class="col-md-3">
+						CVV
+						<input type="text" class="form-control" />
+					</div>
+				</div>
+			</form>
+			<div class="d-flex justify-content-end">
+			<a
+			type="button"
+			class="btn btn-primary btn-lg btn-block mt-4 "
+			href="index.html"
+		>
+			Complete
+		</a>
+	</a>
+	</div>
+		</div>
+			<!--footer-->
+			<footer class="text-center text-white bg-primary" >
+				<div class="container">
+						<div class="mt-5">
+							<div class="row text-center d-flex justify-content-center pt-4">
+								<div class="col-md-2">
+									<h6 class="text-uppercase font-weight-bold">
+									<a href="#" class="text-white">About</a>
+									</h6>
+								</div>
+								<div class="col-md-2">
+									<h6 class="text-uppercase font-weight-bold">
+									<a href="#" class="text-white">Help</a>
+									</h6>
+								</div>
+								<div class="col-md-2">
+									<h6 class="text-uppercase font-weight-bold">
+									<a href="#" class="text-white">Contact</a>
+									</h6>
+								</div>
+							</div>
+						</div>
+		
+				
+					<hr class="my-5" />
+				
+		
+					<div class="mb-2">
+						<div class="row d-flex justify-content-center">
+							<div class="col-lg-8">
+							<p>
+								This project is completely open source and can be found by clicking on the github icon below.
+							</p>
+							</div>
+						</div>
+					</div>
+						<div class="text-center mb-4">
+							<a  class="text-white me-4">
+							<i class="fab fa-github"></i>
+							</a>
+						</div>
+		
+					</div>
+					<div class="text-center p-1">
+						© 2023 Copyright: Jack
+				</div>
+		</footer>
+		<!--end footer-->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
